@@ -1,3 +1,1 @@
-image: elixir:latest
-tasks:
-  - init: mix local.hex --force && mix deps.get
+image: hexpm/elixir:1.13.1-erlang-24.2-ubuntu-xenial-20210114

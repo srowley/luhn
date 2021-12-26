@@ -1,0 +1,10 @@
+
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: mix local.hex --force && mix deps.get && mix compile
+
+vscode:
+  extensions:
+    - elixir-lsp.elixir-ls
